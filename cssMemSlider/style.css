@@ -49,3 +49,48 @@ p {
 .slider__slide_4 {
   background-image: url(./assets/4.jpg); 
 }
+
+
+.input {
+  display: none;
+}
+
+.controls {
+  flex-shrink: 0;
+}
+
+.controls__label {
+  display: inline-flex;
+  align-items: center;
+  width: 1rem;
+  height: 1rem;
+  border-radius: 100%;
+  margin-left: .2rem;
+  margin-right: .2rem;
+  cursor: pointer;
+  border: 5px solid transparent;
+}
+
+.controls__label:last-child {
+  margin-right: 0;
+}
+
+.controls__label:first-child {
+  margin-left: 0;
+}
+
+.controls__label-inner {
+  background: rgb(255, 255, 255);
+  width: .8rem;
+  height: .8rem;
+  border-radius: 100%;
+  opacity: .5;
+}
+
+.controls__label:hover span {
+  background: #000;
+}
+
+.controls__label:active span {
+  background: #c82f79;
+}
